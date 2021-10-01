@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ti real-time classification',
-      routes: {"/":(context)=>HomePage(cameras)},
+      routes: {"/": (context) => HomePage(cameras)},
     );
   }
 }
